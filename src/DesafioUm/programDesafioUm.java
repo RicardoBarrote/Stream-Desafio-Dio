@@ -1,6 +1,7 @@
 package DesafioUm;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -20,7 +21,7 @@ public class programDesafioUm {
 		List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 5, 4, 3);
 
 		Set<Integer> numeroOrdemCrescente = numeros.stream()
-				.sorted()
+				.sorted(Comparator.naturalOrder())
 				.collect(Collectors.toSet());
 
 		System.out.println(numeroOrdemCrescente);

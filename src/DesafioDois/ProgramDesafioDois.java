@@ -8,7 +8,7 @@ public class ProgramDesafioDois {
 	public static void main(String[] args) {
 		
 		/*
-		 * Desafio 1/20
+		 * Desafio 2/20
 		 * 
 		 * Instrutora Camila Cavalcante, BootCamp Santander, Plataforma: Digital Innovation One (Dio).
 		 * 
